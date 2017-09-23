@@ -11,21 +11,29 @@
 			<h1>Alex Green</h1>
 			<nav>
 				<ul>
-					<li>About</li>
-					<li>Gallery</li>
-					<li>Contact</li>
+					<li><a href="about.html" target="the-frame">About</a></li>
+					<li><a href="portfolio.html" target="the-frame">Portfolio</a></li>
+					<li><a href="contact.html" target="the-frame">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<section>
 			<article id="content-left">
-				<p><img src="http://via.placeholder.com/200x200" class="img-left-200" />Lorem ipsum dolor sit amet, id enim oratio deseruisse eum, eos at eripuit omittam copiosae, partem euripidis mei et. Ad mea quidam torquatos, in tota feugait sit. Nihil torquatos delicatissimi pri ex, ullum saperet honestatis nec ea, erant perfecto an sea. Posse minim iisque te pro, cu rebum definiebas mei. Eum inimicus tincidunt no, repudiare scribentur eu cum. Sea exerci ornatus labores eu, vis movet ornatus facilis et. Dicta facilisi an usu, eam id labore repudiandae.</p>
+				<iframe src="about.html" name="the-frame" style="height: 100%; width: 100%;">
+					Frames are not supported in your browser.
+				</iframe>
 			</article>
 			<article id="content-right">
-				<object data="social-media.html" width="100%" height="100%" style="overflow:hidden; height: 90%;"> 
-    				Your browser doesn’t support the object tag. 
-				</object>
+				<div id="social-media">
+					<p>Social Media</p>
+
+					<div id="social-media-icons">
+						<a href="#" target="_blank"><img src="assets/images/facebook.png" /></a>
+						<a href="#" target="_blank"><img src="assets/images/instagram.png" /></a>
+						<a href="#" target="_blank"><img src="assets/images/youtube.png" /></a>
+					</div>
+				</div>
 			</article>
 		</section>
 	</div>				
